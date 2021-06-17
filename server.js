@@ -25,7 +25,6 @@ app.get("/", async (req, res) => {
     "struggle",
   ];
   let str;
-
   postContainer.map((post) => {
     if (substrings.some((v) => post.selftext.includes(v))) {
       data.push({
