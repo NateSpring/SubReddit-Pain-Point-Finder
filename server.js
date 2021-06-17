@@ -36,7 +36,6 @@ app.get("/", async (req, res) => {
       });
     }
   });
-
   res.send({ found_count: data.length + " posts", post: data });
 });
 
